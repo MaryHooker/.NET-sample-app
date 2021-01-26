@@ -16,6 +16,6 @@ namespace test_mvc_webapp.Data
         {
         }
 
-        public DbSet<Product> productList {get; set;}
+        public DbSet<Product> Product {get; set;}
     }
 }

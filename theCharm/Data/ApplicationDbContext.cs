@@ -14,6 +14,6 @@ namespace theCharm.Data
             : base(options)
         {
         }
-        public DbSet<Product> Product {get; set;}
+        public DbSet<Product> Productdot {get; set;}
     }
 }

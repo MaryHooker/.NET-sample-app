@@ -15,12 +15,12 @@ namespace pokemon.Models
         public string name {get; set;}
 
          [Required]
-        [Display(Name = "Pokemon Type")]
+         [Display(Name = "Pokemon Type")]
 
         public string type {get; set;}
 
          
- [         Display(Name = "Time of Appearance")]
+        [Display(Name = "Time of Appearance")]
 
         public DateTime timeOfDay {get; set;}
 

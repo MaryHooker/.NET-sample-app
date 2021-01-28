@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using pokemon.Models;
 
 namespace pokemon.Data
 {
@@ -12,5 +13,8 @@ namespace pokemon.Data
             : base(options)
         {
         }
+
+        //reference our model under migrations
+        public DbSet<PokemonModel> pokeList {get; set;}
     }
 }
